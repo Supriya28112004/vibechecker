@@ -30,19 +30,6 @@ app.get("/api/v1/vibes/:id",(req,res)=>
         });
     }
 });
-
-// app.post("/api/v1/vibes",async(req,res)=>
-// {
-//     // try{
-//     // const{username,email,password}=req.body;
-//     // const newuser=await Vibe.create({username,email,password});
-//     // res.status(201).json({success:true,data:newuser,message:"succesfully connected"});
-//     // }
-//     // catch{
-//         res.status(400).json({success:false,message:error.newuser});
-//     }
-// });
-
 const port=4000;
 app.listen(port,()=>
 {
